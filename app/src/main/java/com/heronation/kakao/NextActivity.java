@@ -19,7 +19,7 @@ import com.kakao.usermgmt.callback.LogoutResponseCallback;
  */
 
 public class NextActivity extends AppCompatActivity {
-
+//
     TextView tv;
     Button logout;
 
