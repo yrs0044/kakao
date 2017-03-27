@@ -31,8 +31,8 @@ public class NextActivity extends AppCompatActivity {
         logout = (Button)findViewById(R.id.logout_btn);
         tv = (TextView) findViewById(R.id.tv_next);
 
-        Intent intent = new Intent();
-        String kakaoID =  intent.getStringExtra("KAKAO");
+        Intent intent = getIntent();
+        String kakaoID =  intent.getExtras().getString("KAKAO");
         Log.i("asdsdfasdfasdf.....",kakaoID); // 왜 에러가 날까요...
         tv.setText(kakaoID);
 
