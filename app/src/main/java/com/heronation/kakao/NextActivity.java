@@ -33,7 +33,7 @@ public class NextActivity extends AppCompatActivity {
 
         Intent intent = new Intent();
         String kakaoID =  intent.getStringExtra("KAKAO");
-//        Log.i("asdsdfasdfasdf.....",kakaoID);
+        Log.i("asdsdfasdfasdf.....",kakaoID); // 왜 에러가 날까요...
         tv.setText(kakaoID);
 
         logout.setOnClickListener(new View.OnClickListener() {
